@@ -1,0 +1,32 @@
+.Cards {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.Card {
+	padding: 40px;
+	margin: 10px; 
+	border-radius: 5px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.5);
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-basis: 300px;
+	flex-grow: 1;
+}
+
+.Card img {
+	width: 160px;
+	border-radius: 6px;
+	display: block;
+}
+
+.Card h3 {
+	flex-grow: 1;
+}
+
+.Card:hover {
+	background-color: #C5E0DC;
+	opacity: 1;
+
+

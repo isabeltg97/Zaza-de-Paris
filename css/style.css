@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Allura&family=Dancing+Script:wght@700&family=Playfair+Display&display=swap");
+
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+
+
+
+h1 {
+	color: #ED254E;
+	font-family: 'Allura', cursive;
+	font-size: 700px;
+	margin: 15px auto;
+	line-height: 1;
+	margin-bottom: 30px;
+}
+
+h2 {
+	font-family: 'Playfair Display', serif;
+	font-weight: lighter;
+	color: #C5E0DC;
+	font-size: 20px;
+}
+
+h3 {
+	font-family: 'Allura', cursive;
+	font-weight: bolder;
+
+}
+
+h4 {
+	font-family: 'Abril Fatface', cursive;
+	font-weight: bolder;
+
+a {
+	text-decoration: none;
+}
